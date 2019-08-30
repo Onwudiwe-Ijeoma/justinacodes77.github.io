@@ -1,12 +1,12 @@
-h2 {
-    color: ;
-}
 
 body {
-    background: url(pic1.jpg);
+    background:url(pic1.jpg);
     background-size:cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-position:center;
+    background-repeat:no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items:center;
     height:100vh;
 }
 
@@ -21,7 +21,6 @@ body {
     margin-left: 180x;
 }
 form{
-    
     text-align: center;
     width: 240px;
 }
