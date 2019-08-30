@@ -9,6 +9,12 @@ body {
     align-items:center;
     height:100vh;
 }
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:2px solid white;
+}
 
 .black__bg{
     background-color: rgba(44,62,80,0.7);
