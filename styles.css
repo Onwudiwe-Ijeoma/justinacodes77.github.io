@@ -1,23 +1,29 @@
-body{
+h2 {
+    color: ;
+}
+
+body {
     background: url(pic1.jpg);
     background-size:cover;
     background-position: center;
+    background-repeat: no-repeat;
     height:100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
-.signup{
-    background:rgba(44,62,80,0.7);
-    padding: 40px;
+
+.black__bg{
+    background-color: rgba(44,62,80,0.7);
+    background-position: center;
+    margin: auto;
+    height: 400px;
     width: 250px;
-    height: 500px;
-    
-    
+    margin-top: 80px;
+    padding: 40px;
+    margin-left: 180x;
 }
 form{
-    width: 240px;
+    
     text-align: center;
+    width: 240px;
 }
 input[type=text]{
     
@@ -35,6 +41,7 @@ input[type=text]{
     
 }
 
+
 input[type=password]{
     
      width: 240px;
@@ -50,11 +57,14 @@ input[type=password]{
     
     
 }
+
+
+
 input[type=button]{
 background-color: white;
     width: 190px;
   border: none;
-  color: #000;
+  color: black;
   padding: 10px 0;
   text-decoration: none;
   cursor: pointer;
@@ -62,17 +72,49 @@ background-color: white;
     line-height: 25px;
     border-right: 15px;
     margin: 15px;
+    border-radius: 40px;
 }
 
 input[type=button]:hover{
     color: aqua;
     background-color: black;
 }
-h2{
-    color:white;
+a{
+    color: yellow;
+    text-decoration: underline;
 }
-::placeholder{
-    color: aqua;
-    opacity: 0.8;
+.container{
+    display: flex;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
